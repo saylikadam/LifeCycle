@@ -19,11 +19,6 @@ public class MainActivity extends Activity implements Communicator {
         setContentView(R.layout.activity_main);
         Log.d("Log","in main activity as onCreate");
 
-//        MyFragment frag = new MyFragment();
-//        FragmentManager manager = getFragmentManager();
-//        FragmentTransaction transaction = manager.beginTransaction();
-//        transaction.add(R.id.fragment_id,frag,"helloFragments");
-//        transaction.commit();
     }
 
     @Override

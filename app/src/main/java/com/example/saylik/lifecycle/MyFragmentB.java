@@ -8,9 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-/**
- * Created by saylik on 15/05/15.
- */
 public class MyFragmentB extends Fragment{
     TextView textView;
     @Override
@@ -24,7 +21,6 @@ public class MyFragmentB extends Fragment{
         super.onActivityCreated(savedInstanceState);
         textView = (TextView) getActivity().findViewById(R.id.textView_on_frag_b);
     }
-
 
     public void changeText(String data){
         textView.setText(data);
